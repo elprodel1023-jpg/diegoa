@@ -1,9 +1,9 @@
 /* estilos.css */
 
-/* Estilos generales */
+/* Fuente base */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+  background-color: #f9f9f9;
 }
 
 /* Imagen de perfil */
@@ -13,21 +13,26 @@ img.rounded-circle {
 }
 
 /* Sección de habilidades */
-section .bi {
+.bi {
   margin-bottom: 10px;
 }
 
 /* Valores */
-h5 {
-  font-weight: bold;
-}
-
-/* Enlaces en contacto */
-section.bg-primary p {
-  margin: 0.5rem 0;
+section h5 {
+  font-weight: 600;
 }
 
 /* Footer */
 footer small {
   font-size: 0.9rem;
 }
+
+/* Enlaces en contacto */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
